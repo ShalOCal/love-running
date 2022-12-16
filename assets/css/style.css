@@ -300,7 +300,7 @@ hr{
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-    }   
+      
  } 
 
  #cover-text{
@@ -327,5 +327,17 @@ hr{
     padding: 20px;
 }
 
+#photos{
+    column-count: 3;
+}
+
+}
+
+@media screen and (max-width:800px) {
+    #photos{
+        column-count: 2;
+    }
+    
+}
 
 
